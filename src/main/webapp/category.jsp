@@ -130,7 +130,7 @@
 											</div>
 										</div>
 										<button type="submit" class="btn btn-danger btn-block">
-											<b>Kargo Ekle</b>
+											<b>Üst Kategori Ekle</b>
 										</button>
 										<div class="clearfix"></div>
 
@@ -142,9 +142,7 @@
 						<div class="col-md-7">
 							<div class="card">
 								<div class="header">
-									<h4 class="title">Edit Profile</h4>
-									<p class="category">Güncelleme İşlemi İçin Ayrıntılara
-										Tıklayın</p>
+									<h4 class="title">Üst Kategoriler</h4>
 								</div>
 								<div class="content table-responsive table-full-width">
 									<table id="example" class="table table-striped table-bordered"
@@ -171,16 +169,14 @@
 						<div class="col-md-5">
 							<div class="card">
 								<div class="header">
-									<h4 class="title">Kargo Firması Ekle</h4>
-									<p class="category">Firma Ekleme İşlemi İçin Bilgileri
-										Doldurun</p>
+									<h4 class="title">Orta Kategori Ekle</h4>
 								</div>
 								<div class="content">
 									<form action="AddMainCategoryServlet" method="post">
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
-													<label class="col-lg-3 control-label">Ürünün
+													<label class="col-lg-3 control-label">Ürünün Süper
 														Katagorisi</label>
 													<div class="col-lg-8">
 														<select title="Katagori Seçiniz" class="form-control"
@@ -193,13 +189,13 @@
 													</div>
 												</div>
 												<div class="form-group">
-													<label class="col-lg-4 control-label">Kargo Adı</label> <input type="text"
+													<label class="col-lg-4 control-label">Kategori Adı</label> <input type="text"
 														class="form-control" name="ad">
 												</div>
 											</div>
 										</div>
 										<button type="submit" class="btn btn-danger btn-block">
-											<b>Kargo Ekle</b>
+											<b>Kategori Ekle</b>
 										</button>
 										<div class="clearfix"></div>
 
@@ -210,9 +206,7 @@
 						<div class="col-md-7">
 							<div class="card">
 								<div class="header">
-									<h4 class="title">Edit Profile</h4>
-									<p class="category">Güncelleme İşlemi İçin Ayrıntılara
-										Tıklayın</p>
+									<h4 class="title">Orta Kategoriler</h4>
 								</div>
 								<div class="content table-responsive table-full-width">
 									<table id="example" class="table table-striped table-bordered"
@@ -241,16 +235,14 @@
 						<div class="col-md-5">
 							<div class="card">
 								<div class="header">
-									<h4 class="title">Kargo Firması Ekle</h4>
-									<p class="category">Firma Ekleme İşlemi İçin Bilgileri
-										Doldurun</p>
+									<h4 class="title">Sub Kategori Ekle</h4>
 								</div>
 								<div class="content">
-									<form action="SubCategoryModel" method="post">
+									<form action="SubCategoryServlet" method="post">
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
-													<label class="col-lg-3 control-label">Ürünün
+													<label class="col-lg-3 control-label">Ürünün Main
 														Katagorisi</label>
 													<div class="col-lg-5">
 														<select title="Katagori Seçiniz" class="form-control"
@@ -263,13 +255,13 @@
 													</div>
 												</div>
 												<div class="form-group">
-													<label>Kargo Adı</label> <input type="text"
+													<label>Kategori Adı</label> <input type="text"
 														class="form-control" name="ad">
 												</div>
 											</div>
 										</div>
 										<button type="submit" class="btn btn-danger btn-block">
-											<b>Kargo Ekle</b>
+											<b>Kategori Ekle</b>
 										</button>
 										<div class="clearfix"></div>
 

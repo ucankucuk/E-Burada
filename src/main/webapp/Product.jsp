@@ -102,7 +102,7 @@
 							class="icon-bar"></span> <span class="icon-bar"></span> <span
 							class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Kargo İşlemleri</a>
+					<a class="navbar-brand" href="#">Ürün İşlemleri</a>
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
@@ -118,9 +118,7 @@
 						<div class="col-md-5">
 							<div class="card">
 								<div class="header">
-									<h4 class="title">Kargo Firması Bilgileri</h4>
-									<p class="category">Firma Bilgilerini Güncellemek İçin
-										Bilgileri Doldurun</p>
+									<h4 class="title">Ürünlere ait Bilgileri</h4>
 								</div>
 								<div class="content">
 									<form action="AddProductServlet" method="post"
@@ -199,9 +197,7 @@
 						<div class="col-md-7">
 							<div class="card">
 								<div class="header">
-									<h4 class="title">Edit Profile</h4>
-									<p class="category">Güncelleme İşlemi İçin Ayrıntılara
-										Tıklayın</p>
+									<h4 class="title">Ürünleriniz</h4>
 								</div>
 								<div class="content table-responsive table-full-width">
 									<table class="footable table table-bordered toggle-circle">

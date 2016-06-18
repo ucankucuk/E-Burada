@@ -5,7 +5,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
+<%
 	HibernateDao dao = new HibernateDaoImpl();
 	List<OrderModel> list3 = dao.findAll(OrderModel.class);
 	request.setAttribute("allOrders", list3);
@@ -96,7 +96,7 @@
 							class="icon-bar"></span> <span class="icon-bar"></span> <span
 							class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Kargo İşlemleri</a>
+					<a class="navbar-brand" href="#">Sipariş İşlemleri</a>
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
@@ -113,9 +113,7 @@
 						<div class="col-md-7">
 							<div class="card">
 								<div class="header">
-									<h4 class="title">Edit Profile</h4>
-									<p class="category">Güncelleme İşlemi İçin Ayrıntılara
-										Tıklayın</p>
+									<h4 class="title">Siparişler</h4>
 								</div>
 								<div class="content table-responsive table-full-width">
 									<table id="example" class="table table-striped table-bordered"

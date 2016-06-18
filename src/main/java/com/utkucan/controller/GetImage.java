@@ -22,6 +22,7 @@ public class GetImage extends HttpServlet {
 			throws ServletException, IOException {
 		String name = request.getParameter("mresim");
 		response.setContentType("image/jpeg");
+		try{
 		File file = new File("/log/" + name);
 		response.setContentLength((int) file.length());
 
@@ -34,5 +35,8 @@ public class GetImage extends HttpServlet {
 		}
 		in.close();
 		out.close();
+		}catch(Exception ex){
+
+		}
 	}
 }

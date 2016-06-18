@@ -49,7 +49,9 @@ public class userSyncServlet extends HttpServlet {
 			dao.update(user);
 			request.getSession().setAttribute("userInfo", user);
 			response.sendRedirect("userOperation.jsp");
-
+		catch(Exception e){
+			
+		}
 	}
 
 }

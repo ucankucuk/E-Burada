@@ -220,6 +220,7 @@
 													<td>${a.PRODUCT_INFO}</td>
 													<td>${a.PRICE}</td>
 													<td><img class="img-thumbnail" style="width: 320px; height: 150px;" src="<c:url value="/resimgetir?mresim=${a.IMAGE_RESOURCE} "/>" /></td>
+													<td><a href="deleteproduct?productID=${a.PRODUCT_ID}" class="btn btn-danger">Sil<i class="glyphicon glyphicon-trash"></i></a></td>
 											</c:forEach>
 											<tr>
 										</tbody>

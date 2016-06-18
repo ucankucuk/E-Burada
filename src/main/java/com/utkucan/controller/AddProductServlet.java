@@ -55,7 +55,7 @@ public class AddProductServlet extends HttpServlet {
 		pModel.setIMAGE_RESOURCE(sifrelenmisResimAdi);
 		try {
 			BufferedOutputStream stream = new BufferedOutputStream(
-					new FileOutputStream(new File("/log/" + sifrelenmisResimAdi)));
+					new FileOutputStream(new File("/tmp/" + sifrelenmisResimAdi)));
 			IOUtils.copy(file.getInputStream(), stream);
 
 			stream.close();

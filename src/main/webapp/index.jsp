@@ -82,7 +82,7 @@
 							<li class="active"><a href="login.html">${user.USER_NAME}
 									${user.USER_SURNAME}</a></li>
 							<li><a href="Sepet.jsp">${user.USER_NAME}'nun Sepeti</a></li>
-							<li><a href="/E-Burada/Logout">Çıkış Yap</a></li>
+							<li><a href="Logout">Çıkış Yap</a></li>
 						</c:if>
 						<c:if test="${empty user}">
 							<li><a href="login.jsp">Giriş Yap</a></li>

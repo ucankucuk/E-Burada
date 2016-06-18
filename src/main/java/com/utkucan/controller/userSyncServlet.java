@@ -50,10 +50,6 @@ public class userSyncServlet extends HttpServlet {
 			request.getSession().setAttribute("userInfo", user);
 			response.sendRedirect("userOperation.jsp");
 
-		} catch (Exception e) {
-			System.out.println("M��teri G�ncellemede Hata Var");
-		}
-
 	}
 
 }

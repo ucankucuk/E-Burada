@@ -22,7 +22,7 @@ public class GetImage extends HttpServlet {
 			throws ServletException, IOException {
 		String name = request.getParameter("mresim");
 		response.setContentType("image/jpeg");
-		File file = new File("/tmp/" + name);
+		File file = new File("/log/" + name);
 		response.setContentLength((int) file.length());
 
 		FileInputStream in = new FileInputStream(file);
